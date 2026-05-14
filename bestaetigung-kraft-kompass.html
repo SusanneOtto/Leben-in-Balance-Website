@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wunderbar, du bist dabei – KRAFT-Kompass</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: #F4F1EC;
+      color: #1F2A38;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      max-width: 640px;
+      width: 100%;
+      border-top: 4px solid #B8A46A;
+      padding: 56px 52px;
+      text-align: center;
+    }
+
+    .icon {
+      width: 52px;
+      height: 52px;
+      background: #B8A46A;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 28px;
+    }
+
+    .icon svg {
+      width: 26px;
+      height: 26px;
+      stroke: #ffffff;
+      fill: none;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 2.4rem;
+      color: #1F2A38;
+      letter-spacing: 0.02em;
+      margin-bottom: 28px;
+    }
+
+    .intro {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #1F2A38;
+      margin-bottom: 32px;
+    }
+
+    .divider {
+      width: 48px;
+      height: 2px;
+      background: #8FA79A;
+      margin: 0 auto 32px;
+    }
+
+    .timeline {
+      background: #F4F1EC;
+      border-left: 3px solid #B8A46A;
+      padding: 24px 28px;
+      text-align: left;
+      margin-bottom: 32px;
+    }
+
+    .timeline-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #8FA79A;
+      margin-bottom: 12px;
+    }
+
+    .timeline p {
+      font-size: 0.93rem;
+      line-height: 1.8;
+      color: #1F2A38;
+    }
+
+    .steps-box {
+      background: #F4F1EC;
+      border-left: 3px solid #8FA79A;
+      padding: 24px 28px;
+      text-align: left;
+      margin-bottom: 32px;
+    }
+
+    .steps-box p {
+      font-size: 0.93rem;
+      line-height: 1.8;
+      color: #1F2A38;
+      margin-bottom: 10px;
+    }
+
+    .steps-box p:last-child { margin-bottom: 0; }
+
+    .highlight-mail {
+      color: #8FA79A;
+      font-style: italic;
+    }
+
+    .closing {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1.15rem;
+      color: #1F2A38;
+      line-height: 1.7;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.78rem;
+      color: #8FA79A;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 520px) {
+      .card { padding: 40px 28px; }
+      h1 { font-size: 1.9rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <div class="icon">
+      <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+    </div>
+
+    <h1>Wunderbar, du bist dabei</h1>
+
+    <p class="intro">
+      Deine Anmeldung ist jetzt vollständig bestätigt, und ich freue mich sehr darauf,
+      dich auf diesem ersten Stück Weg zu begleiten. In den nächsten Minuten bekommst du
+      eine Willkommens-Mail von mir mit dem Betreff
+      <em>„Dein KRAFT-Kompass ist da"</em> –
+      in der du das Workbook als Anhang findest sowie alle wichtigen Informationen
+      zu den kommenden sieben Tagen.
+    </p>
+
+    <div class="divider"></div>
+
+    <div class="timeline">
+      <p class="timeline-label">So geht es jetzt weiter</p>
+      <p>
+        In den nächsten sieben Tagen bekommst du von mir <strong>fünf E-Mails</strong> –
+        eine pro Dimension der KRAFT-Methode – sowie eine letzte Mail am siebten Tag
+        mit einem kleinen Geschenk von mir.<br /><br />
+        Du musst überhaupt nichts tun. Die Mails kommen einfach zu dir,
+        und du liest, was dich anspricht.
+      </p>
+    </div>
+
+    <div class="steps-box">
+      <p><strong>Falls die Willkommens-Mail nicht ankommt:</strong></p>
+      <p>
+        Schau bitte zuerst in deinen <strong>Spam-Ordner</strong> – dort landet die erste Mail
+        manchmal, weil deine Mail-Software mich noch nicht kennt. Falls du sie dort findest,
+        ziehe sie einfach in deinen Posteingang, und alle weiteren Mails kommen automatisch dort an.
+      </p>
+      <p>
+        Falls die Mail gar nicht auftaucht, schreibe mir gern an
+        <span class="highlight-mail">post@susanneotto.de</span> –
+        dann sende ich dir den Kompass persönlich zu.
+      </p>
+    </div>
+
+    <p class="closing">Ich freue mich, dass du da bist.<br /><br />Susanne</p>
+
+  </div>
+
+  <footer>susanneotto.de</footer>
+
+</body>
+</html>

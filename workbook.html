@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Executive Energy Workbook – PDF von Susanne Otto | 17 €</title>
+  <meta name="description" content="PDF-Workbook für deinen persönlichen Energie-Reset. Mit Energie-Tracking, Stress-Protokoll und 7-Tage-Plan. Sofort-Download – 17 €. Von Ernährungs-Coach Susanne Otto." />
+  <meta name="keywords" content="Energie Workbook, Energie Tracking, 7 Tage Reset, PDF Download, Frauen ab 45, Stress Protokoll, Ernährungscoach" />
+  <link rel="canonical" href="https://www.susanneotto.de/workbook.html" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Executive Energy Workbook – PDF von Susanne Otto" />
+  <meta property="og:description" content="Dein strukturierter Begleiter für mehr Energie. Mit Tracking, Protokoll und 7-Tage-Reset-Plan. Sofort-Download – 17 €." />
+  <meta property="og:image" content="https://www.susanneotto.de/images/workbook.jpg" />
+  <meta property="og:url" content="https://www.susanneotto.de/workbook.html" />
+  <meta property="og:type" content="product" />
+  <meta property="og:locale" content="de_DE" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Executive Energy Workbook – PDF von Susanne Otto" />
+  <meta name="twitter:description" content="Dein strukturierter Begleiter für mehr Energie. Sofort-Download – 17 €." />
+  <meta name="twitter:image" content="https://www.susanneotto.de/images/workbook.jpg" />
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Executive Energy Workbook",
+    "description": "PDF-Workbook für den persönlichen Energie-Reset. Mit Energie-Tracking, Stress-Protokoll und 7-Tage-Reset-Plan.",
+    "image": "https://www.susanneotto.de/images/workbook.jpg",
+    "brand": {
+      "@type": "Person",
+      "name": "Susanne Otto"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "17.00",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --navy:       #1F2A38;
+      --navy-light: #2e3f52;
+      --sage:       #8FA79A;
+      --sage-light: #b8cec7;
+      --sage-dark:  #6a8c7e;
+      --offwhite:   #F4F1EC;
+      --beige:      #D8CFC4;
+      --beige-deep: #c9bfb2;
+      --gold:       #B8A46A;
+      --gold-light: #d4c490;
+      --muted:      #5a6472;
+      --white:      #ffffff;
+      --font-serif: 'Cormorant Garamond', Georgia, serif;
+      --font-sans:  'Lato', system-ui, sans-serif;
+      --ease-out:   cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 17px; }
+    body { font-family: var(--font-sans); background: var(--offwhite); color: var(--navy); line-height: 1.7; overflow-x: hidden; }
+    a { text-decoration: none; color: inherit; }
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: var(--offwhite); }
+    ::-webkit-scrollbar-thumb { background: var(--sage); border-radius: 4px; }
+
+    .progress-bar { position: fixed; top: 0; left: 0; height: 2px; background: linear-gradient(90deg, var(--sage-dark), var(--sage), var(--gold)); z-index: 1001; width: 0; transition: width .1s linear; }
+
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 1.2rem 5rem; display: flex; align-items: center; justify-content: space-between; transition: background .4s, padding .4s, box-shadow .4s; }
+    nav.scrolled { background: rgba(244,241,236,.93); backdrop-filter: blur(20px); padding: .8rem 5rem; box-shadow: 0 1px 24px rgba(31,42,56,.07); }
+    .nav-logo { font-family: var(--font-serif); font-size: 1.25rem; font-weight: 600; color: var(--navy); display: flex; flex-direction: column; line-height: 1; }
+    .nav-logo span { font-weight: 300; font-style: italic; font-size: .76rem; color: var(--sage-dark); letter-spacing: .1em; margin-top: 2px; }
+    .nav-back { display: flex; align-items: center; gap: .6rem; font-size: .76rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--navy); transition: color .3s; }
+    .nav-back:hover { color: var(--sage-dark); }
+    .nav-cta-pill { background: var(--sage-dark); color: var(--white); padding: .55rem 1.4rem; border-radius: 100px; font-size: .76rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; transition: background .3s, transform .3s; }
+    .nav-cta-pill:hover { background: #5a7a6e; transform: translateY(-2px); }
+
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+    .container-sm { max-width: 720px; margin: 0 auto; padding: 0 2rem; }
+    section { padding: 6rem 0; }
+    .reveal { opacity: 0; transform: translateY(36px); transition: opacity .8s var(--ease-out), transform .8s var(--ease-out); }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal-left { opacity: 0; transform: translateX(-36px); transition: opacity .8s var(--ease-out), transform .8s var(--ease-out); }
+    .reveal-left.visible { opacity: 1; transform: translateX(0); }
+    .reveal-right { opacity: 0; transform: translateX(36px); transition: opacity .8s var(--ease-out), transform .8s var(--ease-out); }
+    .reveal-right.visible { opacity: 1; transform: translateX(0); }
+    .delay-1{transition-delay:.12s!important} .delay-2{transition-delay:.24s!important} .delay-3{transition-delay:.36s!important} .delay-4{transition-delay:.48s!important}
+    .label { font-size: .7rem; letter-spacing: .2em; text-transform: uppercase; color: var(--sage-dark); font-weight: 700; display: flex; align-items: center; gap: .7rem; margin-bottom: 1rem; }
+    .label::before { content: ''; width: 28px; height: 1px; background: var(--sage); }
+    .label-center { justify-content: center; }
+    .label-center::before { display: none; }
+    h1,h2,h3 { font-family: var(--font-serif); font-weight: 300; line-height: 1.18; }
+    h1 { font-size: clamp(2.5rem, 4.5vw, 4rem); }
+    h2 { font-size: clamp(1.85rem, 3vw, 2.6rem); }
+    em { font-style: italic; color: var(--sage-dark); }
+
+    .btn { display: inline-flex; align-items: center; gap: .7rem; padding: 1.05rem 2.4rem; border-radius: 100px; font-size: .8rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; border: none; cursor: pointer; transition: transform .3s, box-shadow .3s, background .3s; }
+    .btn svg { transition: transform .3s; }
+    .btn:hover svg { transform: translateX(4px); }
+    .btn-sage { background: var(--sage-dark); color: var(--white); }
+    .btn-sage:hover { background: #5a7a6e; transform: translateY(-3px); box-shadow: 0 14px 40px rgba(106,140,126,.3); }
+    .btn-navy { background: var(--navy); color: var(--white); }
+    .btn-navy:hover { background: var(--navy-light); transform: translateY(-3px); box-shadow: 0 14px 40px rgba(31,42,56,.25); }
+    .btn-ghost { background: transparent; color: var(--navy); border: 1.5px solid rgba(31,42,56,.2); }
+    .btn-ghost:hover { border-color: var(--sage); color: var(--sage-dark); background: rgba(143,167,154,.07); transform: translateY(-3px); }
+    .btn-lg { padding: 1.25rem 3rem; font-size: .85rem; }
+
+    /* ── HERO ── */
+    .hero { background: linear-gradient(145deg, #3d5044 0%, var(--sage-dark) 60%, #5a7a6e 100%); min-height: 100vh; display: flex; align-items: center; padding: 10rem 0 6rem; position: relative; overflow: hidden; }
+    .hero::before { content: ''; position: absolute; top: -200px; right: -200px; width: 600px; height: 600px; background: radial-gradient(circle, rgba(244,241,236,.1) 0%, transparent 60%); }
+    .hero::after { content: ''; position: absolute; bottom: -150px; left: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(184,164,106,.12) 0%, transparent 60%); }
+    .hero-inner { display: grid; grid-template-columns: 1fr 380px; gap: 5rem; align-items: center; position: relative; z-index: 2; }
+    .hero-eyebrow { font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; color: rgba(255,255,255,.6); font-weight: 700; display: flex; align-items: center; gap: .8rem; margin-bottom: 1.4rem; opacity: 0; animation: fadeUp .8s .2s var(--ease-out) forwards; }
+    .hero-eyebrow::before { content: ''; width: 28px; height: 1px; background: rgba(255,255,255,.4); }
+    .hero-h1 { color: var(--white); margin-bottom: .7rem; opacity: 0; animation: fadeUp .9s .4s var(--ease-out) forwards; }
+    .hero-h1 em { color: var(--gold-light); }
+    .hero-subtitle { font-family: var(--font-serif); font-style: italic; font-size: 1.3rem; color: rgba(255,255,255,.7); margin-bottom: 1.6rem; font-weight: 300; opacity: 0; animation: fadeUp .9s .55s var(--ease-out) forwards; }
+    .hero-sub { color: rgba(255,255,255,.6); font-size: .95rem; line-height: 1.85; max-width: 500px; margin-bottom: 2.3rem; opacity: 0; animation: fadeUp .9s .65s var(--ease-out) forwards; }
+    .hero-ctas { display: flex; gap: 1rem; flex-wrap: wrap; opacity: 0; animation: fadeUp .9s .8s var(--ease-out) forwards; }
+    .hero-meta { display: flex; gap: 2rem; margin-top: 2rem; opacity: 0; animation: fadeUp 1s 1s var(--ease-out) forwards; flex-wrap: wrap; }
+    .hero-meta-item { display: flex; align-items: center; gap: .55rem; color: rgba(255,255,255,.5); font-size: .79rem; }
+    .hero-meta-item strong { color: rgba(255,255,255,.8); }
+
+    /* Workbook Mock */
+    .workbook-mock { opacity: 0; animation: fadeUp .9s .7s var(--ease-out) forwards; }
+    .wb-cover { background: var(--offwhite); border-radius: 18px; padding: 2.2rem; box-shadow: 0 24px 60px rgba(0,0,0,.25), 0 8px 20px rgba(0,0,0,.12); transform: rotate(2deg); transition: transform .4s var(--ease-out); }
+    .workbook-mock:hover .wb-cover { transform: rotate(0deg) scale(1.03); }
+    .wb-cover-top { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%); border-radius: 12px; padding: 1.8rem; margin-bottom: 1.2rem; }
+    .wb-cover-label { font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; color: var(--sage-light); font-weight: 700; margin-bottom: .7rem; }
+    .wb-cover-title { font-family: var(--font-serif); font-size: 1.3rem; color: var(--white); line-height: 1.2; margin-bottom: .3rem; }
+    .wb-cover-sub { font-size: .76rem; color: rgba(255,255,255,.5); font-style: italic; }
+    .wb-pages { display: flex; gap: .6rem; }
+    .wb-page { flex: 1; background: var(--beige); border-radius: 8px; height: 44px; position: relative; overflow: hidden; }
+    .wb-page::after { content: ''; position: absolute; top: 8px; left: 10px; right: 10px; height: 2px; background: rgba(31,42,56,.12); border-radius: 1px; box-shadow: 0 6px 0 rgba(31,42,56,.08), 0 12px 0 rgba(31,42,56,.06); }
+    .wb-price-tag { background: var(--gold); color: var(--navy); font-size: .78rem; font-weight: 700; padding: .4rem 1rem; border-radius: 100px; text-align: center; margin-top: 1rem; }
+
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+
+    /* TRUST */
+    .trust-bar { background: var(--white); padding: 1.8rem 0; border-bottom: 1px solid rgba(31,42,56,.06); }
+    .trust-inner { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; }
+    .trust-item { display: flex; align-items: center; gap: .6rem; font-size: .79rem; font-weight: 700; color: var(--muted); }
+
+    /* INTRO */
+    .intro { background: var(--offwhite); }
+    .intro-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .intro-desc { font-size: .95rem; color: var(--muted); line-height: 1.9; margin-bottom: 1.2rem; }
+    .intro-highlight { background: var(--white); border-radius: 18px; padding: 2rem; border-left: 4px solid var(--sage); }
+    .intro-highlight p { font-family: var(--font-serif); font-style: italic; font-size: 1.1rem; color: var(--navy); line-height: 1.6; }
+    .intro-highlight cite { font-size: .76rem; letter-spacing: .1em; text-transform: uppercase; color: var(--sage-dark); font-style: normal; display: block; margin-top: .7rem; }
+    .intro-visual { border-radius: 28px; aspect-ratio: 3/4; position: relative; overflow: hidden; }
+    .wb-preview-pages { display: flex; flex-direction: column; gap: .8rem; width: 100%; }
+    .wb-preview-page { background: rgba(255,255,255,.8); border-radius: 10px; padding: 1rem 1.2rem; backdrop-filter: blur(4px); }
+    .wb-preview-page h5 { font-size: .72rem; font-weight: 700; color: var(--navy); letter-spacing: .06em; margin-bottom: .35rem; }
+    .wb-preview-line { height: 2px; background: rgba(31,42,56,.1); border-radius: 1px; margin-bottom: .2rem; }
+    .wb-preview-line.short { width: 65%; }
+    .wb-preview-line.shorter { width: 45%; }
+
+    /* CONTENTS */
+    .contents { background: var(--white); }
+    .contents-header { text-align: center; margin-bottom: 3.5rem; }
+    .contents-header .label { justify-content: center; }
+    .contents-header .label::before { display: none; }
+    .contents-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .content-card { background: var(--offwhite); border-radius: 20px; padding: 1.8rem; transition: all .35s; border: 1px solid transparent; }
+    .content-card:hover { background: var(--white); border-color: rgba(143,167,154,.3); box-shadow: 0 12px 36px rgba(31,42,56,.08); transform: translateY(-5px); }
+    .content-card-num { font-family: var(--font-serif); font-size: 2.5rem; font-weight: 300; color: var(--beige-deep); line-height: 1; margin-bottom: .4rem; }
+    .content-card-icon { font-size: 1.5rem; margin-bottom: .8rem; display: block; }
+    .content-card h4 { font-family: var(--font-serif); font-size: 1.1rem; font-weight: 400; color: var(--navy); margin-bottom: .4rem; line-height: 1.3; }
+    .content-card p { font-size: .82rem; color: var(--muted); line-height: 1.6; }
+    .content-card-tag { display: inline-flex; background: rgba(143,167,154,.15); color: var(--sage-dark); font-size: .63rem; letter-spacing: .1em; text-transform: uppercase; padding: .22rem .6rem; border-radius: 100px; font-weight: 700; margin-bottom: .6rem; }
+    .content-card-pages { font-size: .72rem; color: var(--beige-deep); margin-top: .6rem; font-weight: 700; letter-spacing: .06em; }
+
+    /* FOR WHOM */
+    .forwhom { background: var(--beige); }
+    .forwhom-header { text-align: center; margin-bottom: 3rem; }
+    .forwhom-header .label { justify-content: center; }
+    .forwhom-header .label::before { display: none; }
+    .forwhom-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; max-width: 800px; margin: 0 auto; }
+    .fw-card { background: var(--white); border-radius: 16px; padding: 1.5rem; display: flex; align-items: flex-start; gap: .9rem; transition: transform .3s, box-shadow .3s; }
+    .fw-card:hover { transform: translateY(-4px); box-shadow: 0 10px 32px rgba(31,42,56,.09); }
+    .fw-icon { width: 38px; height: 38px; border-radius: 10px; background: var(--offwhite); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
+    .fw-card h4 { font-size: .88rem; font-weight: 700; color: var(--navy); margin-bottom: 2px; }
+    .fw-card p { font-size: .81rem; color: var(--muted); line-height: 1.5; }
+
+    /* SAMPLE */
+    .sample { background: var(--navy); position: relative; overflow: hidden; padding: 6rem 0; }
+    .sample::before { content: ''; position: absolute; top: -150px; right: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(143,167,154,.1) 0%, transparent 60%); }
+    .sample-header { text-align: center; margin-bottom: 3.5rem; }
+    .sample-header .label { justify-content: center; color: var(--sage-light); }
+    .sample-header .label::before { display: none; }
+    .sample-header h2 { color: var(--white); }
+    .sample-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; position: relative; z-index: 2; }
+    .sample-page { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1); border-radius: 18px; padding: 1.8rem; aspect-ratio: 3/4; position: relative; overflow: hidden; transition: all .3s; }
+    .sample-page:hover { background: rgba(255,255,255,.12); transform: translateY(-5px); }
+    .sample-page-num { font-family: var(--font-serif); font-size: 1.6rem; font-weight: 300; color: rgba(255,255,255,.2); position: absolute; top: 1rem; right: 1.2rem; }
+    .sample-page h5 { font-size: .78rem; font-weight: 700; color: var(--sage-light); letter-spacing: .08em; text-transform: uppercase; margin-bottom: .9rem; }
+    .sample-line { height: 2px; background: rgba(255,255,255,.1); border-radius: 1px; margin-bottom: .5rem; }
+    .sample-line.short { width: 70%; }
+    .sample-line.shorter { width: 50%; }
+    .sample-scale { display: flex; gap: 3px; margin: .7rem 0; }
+    .scale-dot { width: 22px; height: 8px; border-radius: 3px; background: rgba(255,255,255,.1); }
+    .scale-dot.filled { background: rgba(143,167,154,.5); }
+    .sample-box { background: rgba(255,255,255,.08); border-radius: 8px; height: 42px; margin-top: .7rem; }
+    .sample-page-label { position: absolute; bottom: 1rem; left: 1.2rem; font-size: .67rem; color: rgba(255,255,255,.35); letter-spacing: .08em; text-transform: uppercase; }
+
+    /* MINIKURS CTA */
+    .minikurs-cta { background: var(--white); }
+    .minikurs-cta-inner { background: linear-gradient(135deg, var(--navy) 0%, #243548 100%); border-radius: 32px; padding: 3.5rem; display: grid; grid-template-columns: 1fr auto; gap: 3rem; align-items: center; }
+    .minikurs-cta-inner h3 { font-family: var(--font-serif); font-size: 1.8rem; font-weight: 300; color: var(--white); margin-bottom: .6rem; }
+    .minikurs-cta-inner p { color: rgba(255,255,255,.6); font-size: .9rem; line-height: 1.7; }
+    .mk-price { text-align: center; flex-shrink: 0; }
+    .mk-price .price { font-family: var(--font-serif); font-size: 2.5rem; font-weight: 600; color: var(--white); display: block; }
+    .mk-price .note { font-size: .72rem; color: rgba(255,255,255,.5); display: block; margin-bottom: 1.2rem; }
+
+    /* PRICING */
+    .pricing { background: linear-gradient(145deg, #3d5044, var(--sage-dark)); padding: 6rem 0; position: relative; overflow: hidden; }
+    .pricing::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 70% 40%, rgba(244,241,236,.08) 0%, transparent 60%); }
+    .pricing-inner { max-width: 600px; margin: 0 auto; text-align: center; position: relative; z-index: 2; }
+    .pricing-inner h2 { color: var(--white); margin-bottom: .8rem; }
+    .pricing-inner > p { color: rgba(255,255,255,.55); margin-bottom: 2.5rem; font-size: .95rem; }
+    .pricing-card { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.18); border-radius: 28px; padding: 3rem; backdrop-filter: blur(14px); }
+    .pricing-title { font-family: var(--font-serif); font-size: 1.5rem; color: var(--white); margin-bottom: .4rem; }
+    .pricing-sub { color: rgba(255,255,255,.5); font-size: .85rem; margin-bottom: 2rem; }
+    .pricing-list { list-style: none; display: flex; flex-direction: column; gap: .7rem; margin-bottom: 2rem; text-align: left; }
+    .pricing-list li { display: flex; align-items: center; gap: .8rem; font-size: .88rem; color: rgba(255,255,255,.75); }
+    .pricing-list li::before { content: '✓'; color: var(--gold-light); font-weight: 700; flex-shrink: 0; }
+    .pricing-price { font-family: var(--font-serif); font-size: 3.5rem; font-weight: 600; color: var(--white); line-height: 1; margin-bottom: .3rem; }
+    .pricing-note { font-size: .8rem; color: rgba(255,255,255,.4); margin-bottom: 2rem; }
+    .btn-white { background: var(--white); color: var(--sage-dark); }
+    .btn-white:hover { background: var(--offwhite); transform: translateY(-3px); box-shadow: 0 12px 30px rgba(255,255,255,.2); }
+    .pricing-guarantee { margin-top: 1.5rem; font-size: .78rem; color: rgba(255,255,255,.4); display: flex; align-items: center; justify-content: center; gap: .5rem; }
+
+    /* FAQ */
+    .faq { background: var(--offwhite); }
+    .faq-header { text-align: center; margin-bottom: 3rem; }
+    .faq-header .label { justify-content: center; }
+    .faq-header .label::before { display: none; }
+    .faq-list { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: .8rem; }
+    .faq-item { background: var(--white); border-radius: 16px; border: 1px solid rgba(31,42,56,.07); overflow: hidden; }
+    .faq-q { width: 100%; background: none; border: none; cursor: pointer; padding: 1.3rem 1.6rem; display: flex; justify-content: space-between; align-items: center; gap: 1rem; font-family: var(--font-sans); font-size: .9rem; font-weight: 700; color: var(--navy); text-align: left; }
+    .faq-q span { font-size: 1.2rem; color: var(--sage); transition: transform .3s; }
+    .faq-q.open span { transform: rotate(45deg); }
+    .faq-a { max-height: 0; overflow: hidden; transition: max-height .4s var(--ease-out), padding .3s; padding: 0 1.6rem; font-size: .87rem; color: var(--muted); line-height: 1.75; }
+    .faq-a.open { max-height: 200px; padding: 0 1.6rem 1.3rem; }
+
+    /* FINAL CTA */
+    .final-cta { background: var(--offwhite); padding: 5rem 0; text-align: center; }
+    .final-cta h2 { margin-bottom: .8rem; }
+    .final-cta p { color: var(--muted); max-width: 520px; margin: 0 auto 2.2rem; font-size: .95rem; line-height: 1.8; }
+    .final-btns { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+
+    footer { background: #151e27; color: rgba(255,255,255,.45); padding: 3rem 0; }
+    .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+    .footer-logo { font-family: var(--font-serif); font-size: 1.1rem; font-weight: 600; color: rgba(255,255,255,.7); }
+    .footer-links { display: flex; gap: 1.8rem; flex-wrap: wrap; }
+    .footer-links a { font-size: .78rem; color: rgba(255,255,255,.4); transition: color .3s; }
+    .footer-links a:hover { color: var(--sage-light); }
+
+    .btt { position: fixed; bottom: 2rem; right: 2rem; width: 44px; height: 44px; background: var(--sage-dark); color: var(--white); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; z-index: 500; opacity: 0; pointer-events: none; transform: translateY(10px); transition: all .4s var(--ease-out); border: none; box-shadow: 0 6px 20px rgba(106,140,126,.3); }
+    .btt.visible { opacity: 1; pointer-events: all; transform: translateY(0); }
+    .btt:hover { background: #5a7a6e; transform: translateY(-3px); }
+
+    @media(max-width:1024px){
+      nav{padding-left:2.5rem;padding-right:2.5rem;}
+      nav.scrolled{padding-left:2.5rem;padding-right:2.5rem;}
+      .hero-inner{grid-template-columns:1fr;gap:3rem;}
+      .workbook-mock{max-width:360px;}
+      .intro-inner{grid-template-columns:1fr;gap:3rem;}
+      .contents-grid{grid-template-columns:repeat(2,1fr);}
+      .forwhom-grid{grid-template-columns:1fr;}
+      .sample-grid{grid-template-columns:repeat(2,1fr);}
+      .minikurs-cta-inner{grid-template-columns:1fr;text-align:center;}
+    }
+    @media(max-width:768px){
+      html{font-size:15px;}
+      nav{padding:.9rem 1.5rem!important;}
+      section{padding:4rem 0;}
+      .hero{padding:8rem 0 4rem;}
+      .contents-grid{grid-template-columns:1fr;}
+      .sample-grid{grid-template-columns:1fr;}
+      .footer-inner{flex-direction:column;text-align:center;}
+      .footer-links{justify-content:center;}
+    }
+    @media(max-width:480px){
+      .hero-ctas,.final-btns{flex-direction:column;}
+      .btn{width:100%;justify-content:center;}
+    }
+  </style>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">Susanne Otto <span>Leben in Balance</span></a>
+  <div style="display:flex;align-items:center;gap:2rem;">
+    <a href="index.html" class="nav-back">← Zurück zur Hauptseite</a>
+    <a href="#pricing" class="nav-cta-pill">Workbook – 17 €</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div>
+        <p class="hero-eyebrow">PDF-Workbook von Susanne Otto</p>
+        <h1 class="hero-h1">Executive<br/><em>Energy Workbook</em></h1>
+        <p class="hero-subtitle">Dein strukturierter Begleiter zum Energie-Reset</p>
+        <p class="hero-sub">Viele Klientinnen merken schnell, dass es hilft, Energie, Stress und Tagesstruktur ein paar Tage bewusst zu beobachten. Dieses Workbook gibt dir dafür eine klare und einfache Struktur.</p>
+        <div class="hero-ctas">
+          <a href="#pricing" class="btn btn-white btn-lg">
+            Jetzt herunterladen – 17 €
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contents" class="btn btn-ghost btn-lg" style="color:rgba(255,255,255,.7);border-color:rgba(255,255,255,.22);">Inhalt ansehen</a>
+        </div>
+        <div class="hero-meta">
+          <div class="hero-meta-item">📄 <strong>PDF</strong> zum Download</div>
+          <div class="hero-meta-item">📥 <strong>Sofort</strong> nach Kauf verfügbar</div>
+          <div class="hero-meta-item">🖨️ <strong>Print-freundlich</strong></div>
+        </div>
+      </div>
+      <div class="workbook-mock">
+        <div class="wb-cover">
+          <div class="wb-cover-top">
+            <div class="wb-cover-label">Executive Energy Workbook</div>
+            <div class="wb-cover-title">Beobachten.<br/>Stabilisieren.<br/>Klarheit gewinnen.</div>
+            <div class="wb-cover-sub">Begleitmaterial zum Energie-Reset Kurs</div>
+          </div>
+          <div class="wb-pages">
+            <div class="wb-page"></div>
+            <div class="wb-page"></div>
+            <div class="wb-page"></div>
+          </div>
+          <div class="wb-price-tag">PDF-Download · 17 €</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<div class="trust-bar">
+  <div class="trust-inner">
+    <div class="trust-item"><span>📄</span> PDF · Sofort-Download</div>
+    <div class="trust-item"><span>⚡</span> Sofort-Download</div>
+    <div class="trust-item"><span>🖨️</span> Print-freundlich</div>
+    <div class="trust-item"><span>🔒</span> Sicher & verschlüsselt</div>
+    <div class="trust-item"><span>🎓</span> Von einer Expertin</div>
+  </div>
+</div>
+
+<!-- INTRO -->
+<section class="intro">
+  <div class="container">
+    <div class="intro-inner">
+      <div>
+        <p class="label reveal">Warum dieses Workbook?</p>
+        <h2 class="reveal delay-1">Struktur statt <em>Trial-and-Error</em></h2>
+        <p class="intro-desc reveal delay-2">Dieses Workbook unterstützt dich dabei, die Inhalte des Kurses nicht nur zu verstehen, sondern wirklich umzusetzen. Alle Übungen sind so gestaltet, dass du sie in wenigen Minuten pro Tag ausfüllen kannst.</p>
+        <p class="intro-desc reveal delay-3">Du kannst den Kurs auch ohne Workbook vollständig umsetzen. Viele Teilnehmerinnen nutzen es jedoch gern, weil es ihnen hilft, Zusammenhänge schneller zu erkennen und Fortschritte sichtbar zu machen.</p>
+        <div class="intro-highlight reveal delay-4">
+          <p>„Viele Teilnehmerinnen berichten, dass sie durch das Tracking im Workbook schneller erkennen, was ihrem Energielevel wirklich hilft."</p>
+          <cite>— Susanne Otto</cite>
+        </div>
+      </div>
+      <div class="reveal-right">
+        <div class="intro-visual">
+          <img src="images/workbook.jpg" alt="Susanne Otto – Autorin des Executive Energy Workbooks für Frauen ab 45" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;"/>
+          <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(31,42,56,.5) 0%, rgba(31,42,56,.05) 60%, transparent 100%);"></div>
+          <div style="position:absolute;bottom:1.5rem;left:1.5rem;right:1.5rem;">
+            <div class="wb-preview-pages" style="gap:.5rem;">
+              <div class="wb-preview-page" style="background:rgba(255,255,255,.88);"><h5>Energie-Standortbestimmung</h5><div class="wb-preview-line"></div><div class="wb-preview-line short"></div></div>
+              <div class="wb-preview-page" style="background:rgba(255,255,255,.88);"><h5>7-Tage Reset-Tracker</h5><div class="wb-preview-line"></div><div class="wb-preview-line shorter"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTENTS -->
+<section class="contents" id="contents">
+  <div class="container">
+    <div class="contents-header">
+      <p class="label reveal">Workbook-Inhalt</p>
+      <h2 class="reveal delay-1">Was dich im Workbook <em>erwartet</em></h2>
+      <p class="reveal delay-2" style="color:var(--muted);max-width:520px;margin:0 auto;font-size:.95rem;">Jeder Abschnitt hat einen klaren Zweck – kein Füllmaterial, nur das, was dir wirklich hilft.</p>
+    </div>
+    <div class="contents-grid">
+      <div class="content-card reveal"><div class="content-card-num">01</div><span class="content-card-icon">📊</span><h4>Energie-Standortbestimmung</h4><p>Skalen zu Energie, Konzentration und Stress – dein ehrlicher Ausgangspunkt.</p></div>
+      <div class="content-card reveal delay-1"><div class="content-card-num">02</div><span class="content-card-icon">🕐</span><h4>Dein typischer Tag</h4><p>Tabelle deines aktuellen Energieverlaufs – Uhrzeit, Aktivität, Energielevel.</p></div>
+      <div class="content-card reveal delay-2"><div class="content-card-num">03</div><span class="content-card-icon">🔍</span><h4>Energieräuber erkennen</h4><p>Checkliste der häufigsten Energie-Killer mit persönlicher Fokus-Auswahl.</p></div>
+      <div class="content-card reveal delay-3"><div class="content-card-num">04</div><span class="content-card-icon">📈</span><h4>3-Tage Energie-Tracking</h4><p>Mahlzeiten, Energielevel und Stresszustände über 3 Tage dokumentieren.</p></div>
+      <div class="content-card reveal delay-1"><div class="content-card-num">05</div><span class="content-card-icon">⚡</span><h4>Stress-Trigger & Heißhunger</h4><p>Situationen analysieren, die dein Nervensystem aktivieren und Heißhunger auslösen.</p></div>
+      <div class="content-card reveal delay-2"><div class="content-card-num">06</div><span class="content-card-icon">🎯</span><h4>7-Tage Reset-Tracker</h4><p>Tägliche Tabelle: Energie morgens, Energie nachmittags, Reset umgesetzt.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOR WHOM -->
+<section class="forwhom">
+  <div class="container">
+    <div class="forwhom-header">
+      <p class="label reveal">Für wen ist es?</p>
+      <h2 class="reveal delay-1">Besonders hilfreich, wenn du…</h2>
+    </div>
+    <div class="forwhom-grid">
+      <div class="fw-card reveal"><div class="fw-icon">👁️</div><div><h4>Deine Energie bewusst beobachten möchtest</h4><p>Das Tracking hilft dir, Muster zu erkennen, die du bisher nicht gesehen hast.</p></div></div>
+      <div class="fw-card reveal delay-1"><div class="fw-icon">📏</div><div><h4>Veränderungen messbar machen willst</h4><p>Fortschritte sichtbar – nicht nur gefühlt, sondern dokumentiert.</p></div></div>
+      <div class="fw-card reveal delay-2"><div class="fw-icon">🗂️</div><div><h4>Struktur statt Trial-and-Error bevorzugst</h4><p>Klarer Rahmen statt chaotischem Ausprobieren.</p></div></div>
+      <div class="fw-card reveal delay-3"><div class="fw-icon">✅</div><div><h4>Den 7-Tage-Reset konsequent umsetzen möchtest</h4><p>Der Tracker begleitet dich Tag für Tag durch die Challenge.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SAMPLE PAGES -->
+<section class="sample">
+  <div class="container">
+    <div class="sample-header">
+      <p class="label reveal">Einblick ins Workbook</p>
+      <h2 class="reveal delay-1" style="color:var(--white);">Drei <em style="color:var(--gold-light);">Einblicke</em> aus dem Inneren</h2>
+    </div>
+    <div class="sample-grid">
+      <div class="sample-page reveal">
+        <div class="sample-page-num">03</div>
+        <h5>Energie-Standortbestimmung</h5>
+        <div class="sample-line"></div>
+        <div class="sample-line short"></div>
+        <div class="sample-scale"><div class="scale-dot filled"></div><div class="scale-dot filled"></div><div class="scale-dot filled"></div><div class="scale-dot"></div><div class="scale-dot"></div></div>
+        <div class="sample-scale"><div class="scale-dot filled"></div><div class="scale-dot filled"></div><div class="scale-dot"></div><div class="scale-dot"></div><div class="scale-dot"></div></div>
+        <div class="sample-line shorter"></div>
+        <div class="sample-box"></div>
+        <div class="sample-page-label">Energie-Standortbestimmung</div>
+      </div>
+      <div class="sample-page reveal delay-1">
+        <div class="sample-page-num">07</div>
+        <h5>3-Tage Energie-Tracking</h5>
+        <div class="sample-line"></div>
+        <div class="sample-box" style="height:30px;margin-top:.5rem;"></div>
+        <div class="sample-box" style="height:30px;margin-top:.4rem;"></div>
+        <div class="sample-box" style="height:30px;margin-top:.4rem;"></div>
+        <div class="sample-box" style="height:30px;margin-top:.4rem;"></div>
+        <div class="sample-page-label">3-Tage Energie-Tracking</div>
+      </div>
+      <div class="sample-page reveal delay-2">
+        <div class="sample-page-num">15</div>
+        <h5>7-Tage Reset-Tracker</h5>
+        <div class="sample-line"></div>
+        <div class="sample-line short"></div>
+        <div class="sample-scale" style="margin-top:.6rem;"><div class="scale-dot filled"></div><div class="scale-dot filled"></div><div class="scale-dot filled"></div><div class="scale-dot filled"></div><div class="scale-dot"></div></div>
+        <div class="sample-box" style="height:24px;margin-top:.5rem;"></div>
+        <div class="sample-box" style="height:24px;margin-top:.4rem;"></div>
+        <div class="sample-box" style="height:24px;margin-top:.4rem;"></div>
+        <div class="sample-page-label">7-Tage Reset-Tracker</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MINIKURS CTA -->
+<section class="minikurs-cta">
+  <div class="container">
+    <div class="minikurs-cta-inner reveal">
+      <div>
+        <p style="font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.5);font-weight:700;margin-bottom:.6rem;">Perfekte Ergänzung</p>
+        <h3>Raus aus dem 16-Uhr-Energietief</h3>
+        <p>Das Workbook wurde als Begleitung zu diesem Minikurs entwickelt. Im Kurs lernst du die Strategien – im Workbook setzt du sie strukturiert um und machst deine Fortschritte sichtbar.</p>
+      </div>
+      <div class="mk-price">
+        <span class="price">37 €</span>
+        <span class="note">5 Module · ca. 55 Min.</span>
+        <a href="minikurs.html" class="btn btn-ghost btn-lg" style="color:rgba(255,255,255,.75);border-color:rgba(255,255,255,.25);white-space:nowrap;">Zum Minikurs</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="pricing-inner">
+      <p class="label label-center reveal" style="color:rgba(255,255,255,.6);">Jetzt herunterladen</p>
+      <h2 class="reveal delay-1">Dein <em style="color:var(--gold-light);">Energie-Workbook</em></h2>
+      <p class="reveal delay-2">Sofort als PDF verfügbar – zum Ausdrucken oder digital ausfüllen.</p>
+      <div class="pricing-card reveal delay-2">
+        <div class="pricing-title">Executive Energy Workbook</div>
+        <div class="pricing-sub">PDF-Download von Susanne Otto</div>
+        <ul class="pricing-list">
+          <li>Strukturiertes Workbook als PDF</li>
+          <li>Energie-Standortbestimmung & Tracking</li>
+          <li>3-Tage Energie- & Stress-Protokoll</li>
+          <li>7-Tage Reset-Tracker</li>
+          <li>Abschlussreflexion & persönlicher Energieplan</li>
+          <li>Print-freundlich & digital ausfüllbar</li>
+        </ul>
+        <div class="pricing-price">17 €</div>
+        <div class="pricing-note">Einmalzahlung · inkl. MwSt. · sofort als PDF verfügbar</div>
+        <a href="https://alfima.com/susanneo/executive-energy-workbook" class="btn btn-white btn-lg" style="width:100%;justify-content:center;" target="_blank">
+          Workbook jetzt herunterladen
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <div class="pricing-guarantee">🔒 Sichere Zahlung · Fragen? <a href="https://zeeg.me/susanneotto" style="color:var(--gold-light);margin-left:.3rem;">Schreib mir gern</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="container">
+    <div class="faq-header">
+      <p class="label reveal">FAQ</p>
+      <h2 class="reveal delay-1">Häufige <em>Fragen</em></h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item"><button class="faq-q">In welchem Format erhalte ich das Workbook? <span>+</span></button><div class="faq-a">Du erhältst das Workbook als PDF-Datei. Es ist sowohl print-freundlich als auch am Bildschirm gut lesbar und – je nach PDF-Reader – direkt digital ausfüllbar.</div></div>
+      <div class="faq-item"><button class="faq-q">Brauche ich den Minikurs dazu? <span>+</span></button><div class="faq-a">Nein. Du kannst das Workbook auch unabhängig vom Kurs nutzen. Viele Themen – wie das Energie-Tracking und der Reset-Plan – sind selbsterklärend und sofort anwendbar.</div></div>
+      <div class="faq-item"><button class="faq-q">Wie viel Zeit benötige ich täglich? <span>+</span></button><div class="faq-a">Das Workbook ist so gestaltet, dass du alle Übungen in wenigen Minuten pro Tag ausfüllen kannst. Kein langer Aufwand – nur kurze, gezielte Beobachtungen.</div></div>
+      <div class="faq-item"><button class="faq-q">Wann erhalte ich den Download? <span>+</span></button><div class="faq-a">Du erhältst sofort nach dem Kauf einen Download-Link per E-Mail. Der Zugang ist unbegrenzt – du kannst das PDF jederzeit erneut herunterladen.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<div class="final-cta">
+  <div class="container">
+    <p class="label label-center reveal">Los geht's</p>
+    <h2 class="reveal delay-1">Dein strukturierter Start<br/><em>in mehr Energie</em></h2>
+    <p class="reveal delay-2">17 €. Sofort verfügbar. Kein Abo, kein Haken. Nur ein klarer Rahmen für deinen Energie-Reset.</p>
+    <div class="final-btns reveal delay-3">
+      <a href="#pricing" class="btn btn-sage btn-lg">
+        Workbook herunterladen – 17 €
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="minikurs.html" class="btn btn-ghost btn-lg">Auch den Minikurs ansehen</a>
+    </div>
+  </div>
+</div>
+
+<section style="background:var(--navy);padding:5rem 0;">
+  <div class="container" style="text-align:center;max-width:620px;">
+    <p style="font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--sage-light);font-weight:700;margin-bottom:1rem;">Der nächste Schritt</p>
+    <h2 style="font-family:var(--font-serif);color:#fff;font-size:clamp(1.8rem,3vw,2.6rem);font-weight:300;margin-bottom:1.2rem;">Du möchtest tiefer gehen?</h2>
+    <p style="color:rgba(255,255,255,.6);line-height:1.8;margin-bottom:2rem;">Das Workbook gibt dir Struktur. Im persönlichen Gespräch schauen wir gemeinsam, was genau in deinem Alltag den Unterschied macht.</p>
+    <a href="https://alfima.com/susanneo/dein-kostenloser-30-minuten-kraft-call" target="_blank" class="btn btn-gold btn-lg">
+      Kostenloses Erstgespräch buchen
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+    <p style="font-size:.78rem;color:rgba(255,255,255,.35);margin-top:1rem;">30 Minuten · kostenlos · unverbindlich</p>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">Susanne Otto · Leben in Balance</div>
+      <div class="footer-links">
+        <a href="index.html">Startseite</a>
+        <a href="minikurs.html">Minikurs</a>
+        <a href="index.html#about">Über mich</a>
+        <a href="#">Datenschutz</a>
+        <a href="#">Impressum</a>
+      </div>
+      <p style="font-size:.76rem;">© 2025 Susanne Otto</p>
+    </div>
+  </div>
+</footer>
+
+<button class="btt" id="btt" aria-label="Nach oben">↑</button>
+
+<script>
+  const pb=document.getElementById('progressBar'),nav=document.getElementById('navbar'),btt=document.getElementById('btt');
+  window.addEventListener('scroll',()=>{
+    const sy=window.scrollY,dh=document.body.scrollHeight-window.innerHeight;
+    pb.style.width=(sy/dh*100)+'%';
+    nav.classList.toggle('scrolled',sy>60);
+    btt.classList.toggle('visible',sy>400);
+  });
+  btt.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+  const ro=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('visible');}),{threshold:.1,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal,.reveal-left,.reveal-right').forEach(r=>ro.observe(r));
+  document.querySelectorAll('.faq-q').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const a=btn.nextElementSibling,o=btn.classList.contains('open');
+      document.querySelectorAll('.faq-q').forEach(b=>{b.classList.remove('open');b.nextElementSibling.classList.remove('open');});
+      if(!o){btn.classList.add('open');a.classList.add('open');}
+    });
+  });
+</script>
+</body>
+</html>

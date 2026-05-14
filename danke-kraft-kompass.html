@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fast geschafft – KRAFT-Kompass</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: #F4F1EC;
+      color: #1F2A38;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      max-width: 640px;
+      width: 100%;
+      border-top: 4px solid #8FA79A;
+      padding: 56px 52px;
+      text-align: center;
+    }
+
+    .icon {
+      width: 52px;
+      height: 52px;
+      background: #8FA79A;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 28px;
+    }
+
+    .icon svg {
+      width: 26px;
+      height: 26px;
+      stroke: #ffffff;
+      fill: none;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 2.4rem;
+      color: #1F2A38;
+      letter-spacing: 0.02em;
+      margin-bottom: 28px;
+    }
+
+    .intro {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #1F2A38;
+      margin-bottom: 32px;
+    }
+
+    .divider {
+      width: 48px;
+      height: 2px;
+      background: #B8A46A;
+      margin: 0 auto 32px;
+    }
+
+    .steps-box {
+      background: #F4F1EC;
+      border-left: 3px solid #8FA79A;
+      padding: 24px 28px;
+      text-align: left;
+      margin-bottom: 32px;
+    }
+
+    .steps-box p {
+      font-size: 0.93rem;
+      line-height: 1.8;
+      color: #1F2A38;
+      margin-bottom: 10px;
+    }
+
+    .steps-box p:last-child { margin-bottom: 0; }
+
+    .steps-box strong {
+      font-weight: 400;
+      color: #1F2A38;
+    }
+
+    .highlight-mail {
+      display: inline;
+      color: #8FA79A;
+      font-style: italic;
+    }
+
+    .closing {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1.15rem;
+      color: #1F2A38;
+      line-height: 1.7;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.78rem;
+      color: #8FA79A;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 520px) {
+      .card { padding: 40px 28px; }
+      h1 { font-size: 1.9rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <div class="icon">
+      <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+    </div>
+
+    <h1>Fast geschafft</h1>
+
+    <p class="intro">
+      Vielen Dank, dass du dich für den <strong>KRAFT-Kompass</strong> entschieden hast.
+      Bevor ich dir das Workbook zusenden darf, brauche ich noch eine kleine Bestätigung von dir –
+      denn der deutsche Datenschutz verlangt von mir, dass ich sicher sein darf, dass wirklich
+      du es bist, die sich gerade angemeldet hat.
+    </p>
+
+    <p class="intro" style="margin-bottom: 0;">
+      In den nächsten Minuten bekommst du eine E-Mail von mir mit dem Betreff<br />
+      <em>„Bestätige bitte deine Anmeldung zum KRAFT-Kompass"</em>.<br />
+      Öffne diese Mail und klicke auf den blauen Bestätigungslink –
+      und schon habe ich alles, was ich brauche, um dir deinen KRAFT-Kompass zuzusenden.
+    </p>
+
+    <div class="divider"></div>
+
+    <div class="steps-box">
+      <p><strong>Falls die Mail nicht auftaucht:</strong></p>
+      <p>
+        Schau bitte zuerst in deinen <strong>Spam-Ordner</strong> – dort landet die Bestätigungsmail
+        erfahrungsgemäß bei etwa jeder fünften Anmeldung.
+      </p>
+      <p>
+        Falls du sie auch dort nicht findest, prüfe gern noch einmal, ob du deine
+        <strong>E-Mail-Adresse korrekt eingegeben</strong> hast – ein einzelner Buchstabendreher
+        reicht aus, damit die Mail nirgendwohin gelangt.
+      </p>
+      <p>
+        Und falls beides nicht hilft, schreibe mir einfach eine kurze Nachricht an
+        <span class="highlight-mail">post@susanneotto.de</span> –
+        dann melde ich mich persönlich bei dir.
+      </p>
+    </div>
+
+    <p class="closing">Ich freue mich, dass du da bist.<br /><br />Susanne</p>
+
+  </div>
+
+  <footer>susanneotto.de</footer>
+
+</body>
+</html>
